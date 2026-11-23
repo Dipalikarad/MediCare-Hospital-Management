@@ -1,0 +1,16 @@
+# Local configuration and credentials
+**/.env
+**/.env.*
+!**/.env.example
+
+# Generated dependencies and build output
+**/node_modules/
+**/dist/
+**/target/
+.m2-repository/
+
+# Logs and local IDE metadata
+*.log
+.idea/
+.vscode/
+*.iml
